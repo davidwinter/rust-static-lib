@@ -1,0 +1,4 @@
+cmake = "3.29.5"
+
+[plugins]
+cmake = "https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/cmake/plugin.toml"
