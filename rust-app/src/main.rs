@@ -1,4 +1,4 @@
-#[link(name = "greeting")]
+#[link(name = "greeting", kind = "static")]
 extern "C" {
     fn say_greeting();
 }
