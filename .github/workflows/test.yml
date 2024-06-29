@@ -1,4 +1,4 @@
-name: static-clang-tools-binaries
+name: rust-static-lib
 
 on:
   push:
@@ -14,7 +14,7 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-      - uses: actions/checkout@v4\
+      - uses: actions/checkout@v4
 
       - name: Set up C++ compiler on Windows
         if: runner.os == 'Windows'
