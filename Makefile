@@ -15,5 +15,4 @@ build.cpp-test-app:
 
 build.rust:
 	cd rust-app \
-		&& cargo build \
-		&& cargo run
+		&& cargo build
